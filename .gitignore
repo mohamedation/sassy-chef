@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+data/pantry.json
+data/history/
+output/*
+!output/.gitkeep
+*.md.bak
+.DS_Store
+
+# DEV challenge draft — keep local, don't commit
+post/

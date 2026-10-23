@@ -1,0 +1,4 @@
+# Sassy Chef — local meal planning via Ollama
+# Core planner uses Python stdlib only.
+# PDF day sheets need:
+fpdf2>=2.8.0

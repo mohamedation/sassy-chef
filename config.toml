@@ -1,0 +1,23 @@
+# Sassy Chef settings — tweak freely for Hacktoberfest / daily life
+
+[ollama]
+# Change this to any local Ollama model, e.g. "gemma3:12b", "llama3.2:3b"
+model = "gemma3:4b"
+base_url = "http://127.0.0.1:11434"
+# Seconds to wait for a full day plan (local models can be slow)
+timeout_seconds = 180
+
+[chef]
+# Servings per meal
+servings = 2
+# Dietary notes the chef must respect (empty string = no restrictions)
+diet = ""
+# Extra preferences: "quick weeknight meals", "use leftover rice", etc.
+preferences = "simple recipes, under 45 minutes when possible, reuse leftovers"
+# Cuisine vibe (optional)
+cuisine_hint = "whatever fits what we already have"
+
+[paths]
+# Relative to project root unless absolute
+data_dir = "data"
+output_dir = "output"
